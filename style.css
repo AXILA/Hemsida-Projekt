@@ -15,6 +15,11 @@ header{
     border-bottom-left-radius: 25px;
 }
 
+ul{
+list-style: none;   
+}  
+
+
 footer{
 display: flex;
 text-align: center;
@@ -23,6 +28,8 @@ border-top:solid #F7D6E0;
 border-bottom:solid #B2F7EF;
 height: 50px;
 bottom: 0%;
+width: 800px;
+position: fixed;
 }
 
 .text{
@@ -36,7 +43,7 @@ aside{
     right: 0%;
     top: 7.7%;
     height: 500px;
-    text-align: center;
+    text-align:center;
     width: 200px;
     border-bottom-left-radius: 25px;
 }
@@ -46,14 +53,18 @@ display: flex;
 background-color: #B2F7EF;
 border:solid #7BDFF2;
 margin-right: 30%;
-text-align: center;    
+position: fixed;
+
 }
 
 .bild
 {
 background-color: #7BDFF2;
 text-align: center;
-border: solid aqua;
 height: 50%;
+}
 
+a{
+text-decoration: none;   
+font-family: 'Nunito', sans-serif;
 }
