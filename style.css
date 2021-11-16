@@ -62,7 +62,7 @@ aside{
     border-bottom-left-radius: 25px;
 }
 
-section{
+.section1{
 font-size: 60px;
 font-family: 'Nunito', sans-serif;
 display: flex;
@@ -78,23 +78,34 @@ position: fixed;
 
 }
 
-.bild
-{
-background-color: #7BDFF2;
-text-align: center;
-height: 50%;
-}
 
 a{
 text-decoration: none;   
 font-family: 'Nunito', sans-serif;
 }
 
-.kläder{
+.section2{
+    font-size: 60px;
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    background-color: #B2F7EF;
+    border:solid #7BDFF2;
+    width: 50%;
+    height: 20%;
+    margin-top: 5%;
+    margin-right: 30%;
+    margin-left: 10%;
+    border-radius: 10px;
+    position: fixed;
+}
+
+.Bild{
 display:flex;
-width: 50%;
-height: 50%;
-
-
-
+flex-wrap: wrap;
+flex-flow: column;
+width:  100px;
+height: 100px;
+margin-bottom: 20px;
+margin: 10px;
+border: solid #7BDFF2;
 }
