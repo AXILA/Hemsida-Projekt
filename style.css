@@ -1,41 +1,55 @@
 body {
-background-color:#EFF7F6;
+background-color:lightcyan;
 margin: 0%;
 }
 
 header{
+    font-family: 'Nunito', sans-serif;
     display: flex;
     position: fixed;
-    right: 0%;
+    justify-content: space-around;
     background-color: #F7D6E0;
     border:solid #F2B5D4;
     height: 50px;
+    width: 100%;
     top: 0%;
-    width: 400px;
-    border-bottom-left-radius: 25px;
 }
+
+
+
 
 ul{
 list-style: none;   
 }  
 
+li{
+margin-left: 20px;
+margin-right: 20px;
+}
+
+.Listan{
+    display: flex;
+    flex-direction: row;
+}
+
 
 footer{
+font-family: 'Nunito', sans-serif;
 display: flex;
 text-align: center;
 background-color:#F2B5D4;
-border-top:solid #F7D6E0;
-border-bottom:solid #B2F7EF;
-height: 50px;
-bottom: 0%;
-width: 800px;
+border: solid #F7D6E0;
 position: fixed;
+width: 500px;
+bottom: 0%;
+justify-content: center;
 }
 
 .text{
     text-align: left;
 }
 aside{
+    font-family: 'Nunito', sans-serif;
     display: flex;
     background-color: #7BDFF2;
     border: solid #F2B5D4;
@@ -49,10 +63,17 @@ aside{
 }
 
 section{
+font-size: 60px;
+font-family: 'Nunito', sans-serif;
 display: flex;
 background-color: #B2F7EF;
 border:solid #7BDFF2;
+justify-content: center;
+width: 50%;
+margin-top: 5%;
 margin-right: 30%;
+margin-left: 10%;
+border-radius: 10px;
 position: fixed;
 
 }
@@ -67,4 +88,13 @@ height: 50%;
 a{
 text-decoration: none;   
 font-family: 'Nunito', sans-serif;
+}
+
+.kläder{
+display:flex;
+width: 50%;
+height: 50%;
+
+
+
 }
