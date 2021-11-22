@@ -4,6 +4,7 @@ margin: 0%;
 }
 
 header{
+    
     font-family: 'Nunito', sans-serif;
     display: flex;
     position: fixed;
@@ -15,10 +16,41 @@ header{
     top: 0%;
 }
 
+.section1{
+    font-size: 60px;
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    background-color: #B2F7EF;
+    border:solid #7BDFF2;
+    justify-content: center;
+    width: 50%;
+    margin-top: 5%;
+    margin-right: 30%;
+    margin-left: 10%;
+    border-radius: 10px;
+    position: fixed;
+    
+    }
+    .section4{
+        font-size: 30px;
+        font-family: 'Nunito', sans-serif;
+        display: flex;
+        background-color: #B2F7EF;
+        border:solid #7BDFF2;
+        width: 40%;
+        height: 20%;
+        margin-top: 20%;
+        margin-right: 30%;
+        margin-left: 10%;
+        border-radius: 10px;
+        position: fixed;
+        text-align: center;
+    }
 
 
 
 ul{
+
 list-style: none;   
 }  
 
@@ -57,29 +89,15 @@ aside{
     right: 0%;
     top: 7.7%;
     height: 500px;
-    text-align:center;
     width: 200px;
     border-bottom-left-radius: 25px;
 }
 
-.section1{
-font-size: 60px;
-font-family: 'Nunito', sans-serif;
-display: flex;
-background-color: #B2F7EF;
-border:solid #7BDFF2;
-justify-content: center;
-width: 50%;
-margin-top: 5%;
-margin-right: 30%;
-margin-left: 10%;
-border-radius: 10px;
-position: fixed;
 
-}
 
 
 a{
+font-weight: 900;
 text-decoration: none;   
 font-family: 'Nunito', sans-serif;
 }
@@ -90,22 +108,57 @@ font-family: 'Nunito', sans-serif;
     display: flex;
     background-color: #B2F7EF;
     border:solid #7BDFF2;
-    width: 50%;
+    width: 40%;
     height: 20%;
     margin-top: 5%;
     margin-right: 30%;
-    margin-left: 10%;
+    margin-left: 20%;
     border-radius: 10px;
     position: fixed;
+    justify-content: space-between;
 }
+
+
+
+.section3{
+    font-size: 60px;
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    background-color: #B2F7EF;
+    border:solid #7BDFF2;
+    width: 40%;
+    height: 20%;
+    margin-top: 20%;
+    margin-right: 30%;
+    margin-left: 20%;
+    border-radius: 10px;
+    position: fixed;
+    justify-content: space-between;
+}
+
 
 .Bild{
 display:flex;
 flex-wrap: wrap;
 flex-flow: column;
+justify-content: space-evenly;
 width:  100px;
 height: 100px;
 margin-bottom: 20px;
 margin: 10px;
 border: solid #7BDFF2;
+}
+
+.aside2{
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    background-color: #7BDFF2;
+    border: solid #F2B5D4;
+    position: fixed;
+    left: 0%;
+    margin-top: 2%;
+    height: 100px;
+    width: 200px;
+    border-radius: 25px; 
+    justify-content: center;
 }
