@@ -155,10 +155,77 @@ border: solid #7BDFF2;
     background-color: #7BDFF2;
     border: solid #F2B5D4;
     position: fixed;
-    left: 0%;
+    left: 2%;
     margin-top: 2%;
     height: 100px;
     width: 200px;
     border-radius: 25px; 
     justify-content: center;
 }
+
+
+
+.Tema{
+    font-size: 40px;
+    font-weight: 900;
+    margin-top: 20px;
+}
+
+
+.aside3{
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    background-color: #7BDFF2;
+    border: solid #F2B5D4;
+    position: fixed;
+    left: 2%;
+    margin-top: 18%;
+    height: 100px;
+    width: 200px;
+    border-radius: 25px; 
+    justify-content: center;
+}
+
+.Tema2{
+    font-size: 40px;
+    font-weight: 900;
+    margin-top: 20px;
+}
+
+
+.section5{
+    font-size: 60px;
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    background-color: #B2F7EF;
+    border:solid #7BDFF2;
+    width: 40%;
+    height: 20%;
+    margin-top: 35%;
+    margin-right: 30%;
+    margin-left: 20%;
+    border-radius: 10px;
+    position: fixed;
+    justify-content: space-between;
+}
+
+.aside5{
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    background-color: #7BDFF2;
+    border: solid #F2B5D4;
+    position: fixed;
+    left: 2%;
+    margin-top: 33%;
+    height: 100px;
+    width: 200px;
+    border-radius: 25px; 
+    justify-content: center;
+}
+
+.Tema3{
+    font-size: 40px;
+    font-weight: 900;
+    margin-top: 20px;
+}
+
