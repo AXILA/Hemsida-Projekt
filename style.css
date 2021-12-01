@@ -88,9 +88,8 @@ aside{
     position: fixed;
     right: 0%;
     top: 7.7%;
-    height: 500px;
-    width: 200px;
-    border-bottom-left-radius: 25px;
+    height: 600px;
+    width: 50px;
 }
 
 
@@ -229,3 +228,47 @@ border: solid #7BDFF2;
     margin-top: 20px;
 }
 
+
+.section6{
+    font-size: 30px;
+        font-family: 'Nunito', sans-serif;
+        display: flex;
+        background-color: #B2F7EF;
+        border:solid #7BDFF2;
+        width: 50%;
+        height: 50%;
+        margin-left: 23%;
+        margin-top: 10%;
+        border-radius: 10px;
+        position: fixed;
+        text-align: center;
+        justify-self: center;
+
+}
+
+.mail{
+ display: flex;
+ margin-left: 5%;
+}
+.telefon{
+    display: flex;
+    margin-left:5%;
+    margin-top: 5%;
+
+}
+
+.kontakter{
+font-family: 'Nunito', sans-serif;
+text-align: left;
+}
+
+.lista{
+margin-top:15%;
+}
+
+.text3{
+font-family: 'Nunito', sans-serif;
+text-align: center;
+margin-top:5%;
+margin-left: 5%;
+}
